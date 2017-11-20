@@ -1,4 +1,4 @@
-package com.example.wangnj.dragger2test.ui;
+package com.example.wangnj.dragger2test.ui.activity;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

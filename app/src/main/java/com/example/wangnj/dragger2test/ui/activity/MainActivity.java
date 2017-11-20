@@ -1,4 +1,4 @@
-package com.example.wangnj.dragger2test.ui;
+package com.example.wangnj.dragger2test.ui.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

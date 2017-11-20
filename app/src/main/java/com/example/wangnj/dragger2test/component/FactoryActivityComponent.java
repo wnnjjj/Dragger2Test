@@ -1,6 +1,6 @@
 package com.example.wangnj.dragger2test.component;
 
-import com.example.wangnj.dragger2test.ui.FactoryActivity;
+import com.example.wangnj.dragger2test.ui.activity.FactoryActivity;
 
 import dagger.Component;
 
