@@ -10,8 +10,8 @@ import android.view.ViewGroup;
 import android.widget.Toast;
 
 import com.example.wangnj.dragger2test.R;
-import com.example.wangnj.dragger2test.component.DaggerHttpFragmentComponent;
-import com.example.wangnj.dragger2test.component.HttpActivityComponent;
+import com.example.wangnj.dragger2test.injection.component.DaggerHttpFragmentComponent;
+import com.example.wangnj.dragger2test.injection.component.HttpActivityComponent;
 import com.example.wangnj.dragger2test.entity.RetrofitManager;
 import com.example.wangnj.dragger2test.ui.activity.HttpActivity;
 

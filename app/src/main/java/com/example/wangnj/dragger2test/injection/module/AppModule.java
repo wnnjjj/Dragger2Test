@@ -1,4 +1,4 @@
-package com.example.wangnj.dragger2test.module;
+package com.example.wangnj.dragger2test.injection.module;
 
 import android.app.Application;
 
@@ -27,6 +27,7 @@ public class AppModule {
     }
 
     @Provides
+    @Singleton
     public AppBean provideAppBean(){
         return  new AppBean();
     }

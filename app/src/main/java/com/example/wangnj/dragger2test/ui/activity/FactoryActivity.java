@@ -6,13 +6,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
 import com.example.wangnj.dragger2test.R;
-import com.example.wangnj.dragger2test.component.DaggerFactoryActivityComponent;
+import com.example.wangnj.dragger2test.injection.component.DaggerFactoryActivityComponent;
 import com.example.wangnj.dragger2test.entity.Factory;
 import com.example.wangnj.dragger2test.entity.Product;
 
 import javax.inject.Inject;
-
-import dagger.internal.DaggerCollections;
 
 /**
  * Created by wang.nj on 2017/11/20.

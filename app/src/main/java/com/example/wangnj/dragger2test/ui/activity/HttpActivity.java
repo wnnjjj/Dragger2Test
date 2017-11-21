@@ -6,11 +6,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
 import com.example.wangnj.dragger2test.R;
-import com.example.wangnj.dragger2test.component.DaggerHttpActivityComponent;
-import com.example.wangnj.dragger2test.component.HttpActivityComponent;
+import com.example.wangnj.dragger2test.injection.component.DaggerHttpActivityComponent;
+import com.example.wangnj.dragger2test.injection.component.HttpActivityComponent;
 import com.example.wangnj.dragger2test.entity.OkHttpClient;
 import com.example.wangnj.dragger2test.entity.RetrofitManager;
-import com.example.wangnj.dragger2test.module.HttpActivityModule;
+import com.example.wangnj.dragger2test.injection.module.HttpActivityModule;
 import com.example.wangnj.dragger2test.ui.fragment.HttpFragment;
 
 import javax.inject.Inject;

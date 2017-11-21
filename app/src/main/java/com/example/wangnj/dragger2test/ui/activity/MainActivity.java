@@ -1,17 +1,16 @@
 package com.example.wangnj.dragger2test.ui.activity;
 
 import android.app.Application;
-import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
 
 import com.example.wangnj.dragger2test.R;
 import com.example.wangnj.dragger2test.common.TestApplication;
-import com.example.wangnj.dragger2test.component.MainActivityComponent;
+import com.example.wangnj.dragger2test.injection.component.MainActivityComponent;
 import com.example.wangnj.dragger2test.entity.ActivityBean;
 import com.example.wangnj.dragger2test.entity.AppBean;
-import com.example.wangnj.dragger2test.module.MainActivityModule;
+import com.example.wangnj.dragger2test.injection.module.MainActivityModule;
 
 import javax.inject.Inject;
 

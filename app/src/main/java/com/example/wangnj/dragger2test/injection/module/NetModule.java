@@ -1,4 +1,4 @@
-package com.example.wangnj.dragger2test.module;
+package com.example.wangnj.dragger2test.injection.module;
 
 import android.app.Application;
 import android.content.SharedPreferences;
