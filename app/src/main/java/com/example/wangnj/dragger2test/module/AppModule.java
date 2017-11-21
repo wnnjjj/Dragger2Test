@@ -2,6 +2,8 @@ package com.example.wangnj.dragger2test.module;
 
 import android.app.Application;
 
+import com.example.wangnj.dragger2test.entity.AppBean;
+
 import javax.inject.Singleton;
 
 import dagger.Module;
@@ -22,5 +24,10 @@ public class AppModule {
     @Singleton
     public Application provideApplication(){
         return mApplication;
+    }
+
+    @Provides
+    public AppBean provideAppBean(){
+        return  new AppBean();
     }
 }
