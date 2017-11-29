@@ -1,8 +1,7 @@
 package com.example.dagger2androiddemo.injection.component;
 
 import com.example.dagger2androiddemo.base.MyApplication;
-import com.example.dagger2androiddemo.injection.module.MainActivitymodule;
-import com.example.dagger2androiddemo.injection.module.SecondActivityModule;
+import com.example.dagger2androiddemo.injection.module.AllAppCompactActivityModule;
 
 import dagger.Component;
 import dagger.android.AndroidInjectionModule;
@@ -13,8 +12,7 @@ import dagger.android.support.AndroidSupportInjectionModule;
  */
 @Component(modules = {AndroidInjectionModule.class,
         AndroidSupportInjectionModule.class,
-        MainActivitymodule.class,
-        SecondActivityModule.class
+        AllAppCompactActivityModule.class
 })
 public interface MyAppComponent {
     void inject(MyApplication application);
